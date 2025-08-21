@@ -1,18 +1,21 @@
-//your JS code here. If requhttps://www.svgrepo.com/show/345221/three-dots.svgired.
-const modal= document.querySelector(".modal")
-const openBtn = document.getElementById("openModal")
-const closeBtn = document.querySelector(".close-modal")
+// Get elements
+const modal = document.getElementById("myModal");
+const openBtn = document.getElementById("openModal");
+const closeBtn = document.querySelector(".close-modal");
 
-openBtn.onclick =function(){
-	modal.style.display ="none";
+// Open modal
+openBtn.onclick = function() {
+  modal.style.display = "flex"; // flex se center + paddingTop kaam karega
 }
 
-closeBtn.onclick = function(){
-	modal.style.display = "none";
+// Close modal by button
+closeBtn.onclick = function() {
+  modal.style.display = "none";
 }
 
-window.onclick = function(event){
-	if(event.target === modal){
-		modal.style.display ="none";
-	}
+// Close modal by clicking outside
+window.onclick = function(event) {
+  if (event.target === modal) {
+    modal.style.display = "none";
+  }
 }
