@@ -1,10 +1,10 @@
 //your JS code here. If requhttps://www.svgrepo.com/show/345221/three-dots.svgired.
-const modal= document.getElementByClass("modal")
+const modal= document.querySelector(".modal")
 const openBtn = document.getElementById("openModal")
-const closeBtn = document.getElementByClass("close-modal")
+const closeBtn = document.querySelector(".close-modal")
 
 openBtn.onclick =function(){
-	modal.style.display ="flex";
+	modal.style.display ="none";
 }
 
 closeBtn.onclick = function(){
