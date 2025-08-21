@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+.modal{
+	height:100vh;
+	width:100vw;
+	background-color:gray;
+	padding-top:50px;
+}
+.modal-content{
+/* height:8rem; */
+width:28rem;
+	background-color:white;
+	padding:1px;
+	text-align:center;
+margin-left:50px;
+	
+	border:2px solid;
+	
+}
+.modal-header{
+	color:white;
+	background-color:green;
+	height:40px;
+}
+.close-modal{
+	text-align:right;
+	margin-left: 20rem;
+	cursor:pointer;
+}
