@@ -2,6 +2,9 @@ body {
   font-family: Arial, sans-serif;
 }
 
+#openModal{
+	display:block;
+}
 /* Modal Background */
 .modal {
   display: none; /* hidden by default */
