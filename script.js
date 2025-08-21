@@ -5,7 +5,7 @@ const closeBtn = document.querySelector(".close-modal");
 
 // Open modal
 openBtn.onclick = function() {
-  modal.style.display = "flex"; // flex se center + paddingTop kaam karega
+  modal.style.display = "block"; // flex se center + paddingTop kaam karega
 }
 
 // Close modal by button
